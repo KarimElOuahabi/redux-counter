@@ -1,0 +1,6 @@
+# Treat all CSS files as documentation/vendor so they don't count
+*.css linguist-documentation=true
+
+# Or, explicitly tell GitHub this is a TypeScript project
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
